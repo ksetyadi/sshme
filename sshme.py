@@ -17,10 +17,21 @@ def sshto(m):
 		except KeyboardInterrupt:
 			pass
 
+def listall():
+	print 'Available Servers'
+	print '================='
+
+	for m in machines.hostnames:
+		print m[0]
+
+	print ''
 
 def main(arg):
 	for m in machines.hostnames:
-		if arg[0] == m[0]:
+		if arg[0] == 'list':
+			listall()
+			exit(0)
+		elif arg[0] == m[0]:
 			if len(m) != 4:
 				print 'Target found but invalid parameters'
 			else:
@@ -35,7 +46,8 @@ def usage():
 	print 'SSHMe Usage'
 	print '-----------'
 	print 'sshme.py [target-name]'
-	print '\ntarget-name: The machine''s name\n'
+	print '\ntarget-name: The machine\'s name'
+	print 'Specifying target name as \'list\' to list all available servers\n'
 
 
 if __name__ == '__main__':
