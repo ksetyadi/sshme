@@ -32,7 +32,7 @@ def main(arg):
 			listall()
 			exit(0)
 		elif arg[0] == m[0]:
-			if len(m) != 4:
+			if len(m) != 5:
 				print 'Target found but invalid parameters'
 			else:
 				sshto(m)
