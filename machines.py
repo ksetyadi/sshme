@@ -1,0 +1,21 @@
+hostnames = [
+	['labs-ucs', '103.7.1.30', '12323', 'root', 'Usage: Labs UCS - Harmonia, Temporary IVR Storage'],
+	['songhacked-php', '103.7.1.125', '12323', 'root', 'Usage: devenv'],
+	['songstage-php', '103.7.1.125', '12326', 'root', 'Usage: Staging'],
+	['realdevel-cpp', '103.7.1.125', '12324', 'root', 'Usage: CI/Jenkins'],
+	['jakarta', '103.7.1.125', '12331', 'root', 'Usage: production'],
+	['bandung', '103.7.1.125', '12332', 'root', 'Usage: production'],
+	['jogjakarta', '103.7.1.125', '12333', 'root', 'Usage: production'],
+	['surabaya', '103.7.1.125', '12334', 'root', 'Usage: production'],
+	['loadbalancer01(?)', '103.7.1.125', '12371', 'root', 'Usage: Load balancer'],
+	['mysqlcluster(?)', '103.7.1.125', '12351', 'kris', 'Usage: MySQL Cluster'],
+	['nfsserver01', '103.7.1.125', '12352', 'root', 'Usage: Network File Server (Storage)'],
+	['mysql-mgmt1', '103.7.1.125', '2211', 'root', 'Usage: MySQL Management 1'],
+	['mysql-mgmt2', '103.7.1.125', '2212', 'root', 'Usage: MySQL Management 2'],
+	['mysql-data01', '103.7.1.125', '2213', 'root', 'Usage: MySQL Data 1'],
+	['mysql-data02', '103.7.1.125', '2214', 'root', 'Usage: MySQL Data 2'],
+	['mysql-test', '103.7.1.125', '11223', 'root', 'Usage: MySQL test'],
+	['harmonia', '103.7.1.30', '12321', 'root', 'Usage: Harmonia VM'],
+	['kirimapp', '103.242.180.220', '12320', 'root', 'Usage: Kirim App'],
+	['digitalocean-sg', '128.199.183.119', '22', 'root', 'Usage: My DigitalOcean in Singapore']
+]
