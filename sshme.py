@@ -22,7 +22,7 @@ def listall():
 	print '================='
 
 	for m in machines.hostnames:
-		print m[0], '\t', m[1], '\t', m[2], '\t', m[3], '\t', m[4]
+		print m[0], '\t\t', m[1], '\t', m[2], '\t', m[3], '\t', m[4]
 
 	print ''
 
