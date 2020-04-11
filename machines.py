@@ -6,6 +6,7 @@ hostnames = [
 	['media-center', '10.10.19.172', '22', 'mncnow', 'Usage: Media Center Vision+'],
 	['special-tunnel', '110.50.83.173', '45817', 'kristiono', 'Usage: Special Tunnel to Office'],
 	['vplus-meet-sgp1', '128.199.239.40', '22', 'root', 'Usage: Vplus Meet'],
+	['meat.visionplus.id', '10.10.19.245', '22', 'mncnow', 'Usage: Vplus Meat'],
 	['---------- PERSONAL ----------', '-----', '--', '----', '---------'],
 	['ksetyadi-sf2', '206.189.221.104', '22', 'root', 'Usage: My DigitalOcean in Singapore'],
 	['meowmagz', '206.189.208.77', '22', 'root', 'Usage: Meowmagz Server'],
