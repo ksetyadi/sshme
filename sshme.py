@@ -4,7 +4,7 @@ import subprocess
 import machines
 
 def sshto(m):
-	print 'Connecting to ' + m[0] + '...'
+	print('Connecting to ' + m[0] + '...')
 
 	if m[2] == '':
 		try:
@@ -18,13 +18,13 @@ def sshto(m):
 			pass
 
 def listall():
-	print 'Available Servers'
-	print '================='
+	print('Available Servers')
+	print('=================')
 
 	for m in machines.hostnames:
-		print m[0], '\t\t', m[1], '\t', m[2], '\t', m[3], '\t', m[4]
+		print(m[0], '\t\t', m[1], '\t', m[2], '\t', m[3], '\t', m[4])
 
-	print ''
+	print('')
 
 def main(arg):
 	for m in machines.hostnames:
@@ -33,21 +33,21 @@ def main(arg):
 			exit(0)
 		elif arg[0] == m[0]:
 			if len(m) != 5:
-				print 'Target found but invalid parameters'
+				print('Target found but invalid parameters')
 			else:
 				sshto(m)
 			
 			exit(0)
 	
-	print 'Target:', arg[0], 'not found'
+	print('Target:', arg[0], 'not found')
 
 
 def usage():
-	print 'SSHMe Usage'
-	print '-----------'
-	print 'sshme.py [target-name]'
-	print '\ntarget-name: The machine\'s name'
-	print 'Specifying target name as \'list\' to list all available servers\n'
+	print('SSHMe Usage')
+	print('-----------')
+	print('sshme.py [target-name]')
+	print('\ntarget-name: The machine\'s name')
+	print('Specifying target name as \'list\' to list all available servers\n')
 
 
 if __name__ == '__main__':
