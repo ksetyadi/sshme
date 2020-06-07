@@ -7,16 +7,19 @@ hostnames = [
 	['special-tunnel', '110.50.83.173', '45817', 'kristiono', 'Usage: Special Tunnel to Office'],
 	['vplus-meet-sgp1', '128.199.239.40', '22', 'root', 'Usage: Vplus Meet'],
 	['meat.visionplus.id', '10.10.19.245', '22', 'mncnow', 'Usage: Vplus Meat'],
+	['test-lb', '128.199.228.97', '22', 'root', 'Usage: Test LB'],
+	['test-xiaomi', '128.199.242.16', '22', 'root', 'Usage: Test Xiaomi'],
 	['---------- PERSONAL ----------', '-----', '--', '----', '---------'],
 	['ksetyadi-sf2', '206.189.221.104', '22', 'root', 'Usage: My DigitalOcean in Singapore'],
 	['meowmagz', '206.189.208.77', '22', 'root', 'Usage: Meowmagz Server'],
-	['orion-sgp1', '134.209.50.78', '22', 'root', 'Usage: Orion Server'],
-	['orion-sgp-new', '167.99.67.233', '22', 'root', 'Usage: Orion Server'],
-	['galatika-apis', '165.22.107.200', '22', 'root', 'Usage: Galatika API'],
+	['orion-sgp1', '167.99.67.233', '22', 'root', 'Usage: Orion Server'],
 	['---------- TRIAL TUNAS RIDEAN ----------', '', '', '', ''],
 	['tunas-epms', '178.128.221.71', '22', 'root', 'Usage: Tunas E-PMS'],
+	['tunas-test', '165.22.242.12', '22', 'root', 'Usage: Tunas E-PMS Test Machine'],
 	['---------- EXPERIMENT ------------------------', '', '', '', ''],
 	['elastic-search-sgp-1', '157.245.159.203', '22', 'root', 'Usage: Elastic Search'],
 	['visionplus-sg', '206.189.38.143', '22', 'root', 'Usage: VisionPlus VMs'],
 	['vplus-search-engine', '165.22.62.198', '22', 'root', 'Usage: VisionPlus Search Engine VMs']
 ]
+
+private_keys = ['/Users/ksetyadi/.ssh/id_rsa', '/Users/ksetyadi/.ssh/id_rsa_mbp_2011']
