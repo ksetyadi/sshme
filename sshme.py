@@ -52,7 +52,7 @@ def main(arg):
 			if len(m) != 5:
 				print('Target found but invalid parameters')
 			else:
-				if arg[1] != None and arg[1] in machines.private_keys:
+				if len(arg) == 2 and arg[1] in machines.private_keys:
 					sshto(m, pkey=arg[1])
 				else:
 					sshto(m)
