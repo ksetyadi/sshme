@@ -15,7 +15,7 @@ hostnames = [
 	['orion-sgp1', '167.99.67.233', '22', 'root', 'Usage: Orion Server'],
 	['---------- TRIAL TUNAS RIDEAN ----------', '', '', '', ''],
 	['tunas-epms', '178.128.221.71', '22', 'root', 'Usage: Tunas E-PMS'],
-	['tunas-test', '165.22.242.12', '22', 'root', 'Usage: Tunas E-PMS Test Machine'],
+	['tunas-test', '128.199.73.227', '22', 'root', 'Usage: Tunas E-PMS Test Machine'],
 	['---------- EXPERIMENT ------------------------', '', '', '', ''],
 	['elastic-search-sgp-1', '157.245.159.203', '22', 'root', 'Usage: Elastic Search'],
 	['visionplus-sg', '206.189.38.143', '22', 'root', 'Usage: VisionPlus VMs'],
