@@ -1,5 +1,6 @@
 hostnames = [
 	['---------- V+ Internals ----------', '-----', '--', '----', '---------'],
+	['re-do', '188.166.241.242', '22', 'root', 'Usage: V+ Recommendation Engine Service - DO'],
 	['re-engine', '10.10.20.50', '22', 'mncnow', 'Usage: V+ Recommendation Engine Service'],
 	['re-engine-db', '10.10.20.5', '22', 'mncnow', 'Usage: V+ Recommendation Engine Service DB'],
 	['re-engine-redis', '10.10.20.52', '22', 'mncnow', 'Usage: V+ Recommendation Engine Service: Redis'],
@@ -27,7 +28,9 @@ hostnames = [
 	['web-prod-2', '10.10.19.162', '45817', 'mncnow', 'Usage: V+ Website Production 2'],
 	['web-prod-3', '10.10.19.163', '45817', 'mncnow', 'Usage: V+ Website Production 3'],
 	['web-prod-4', '10.10.19.164', '45817', 'mncnow', 'Usage: V+ Website Production 4'],
+	['inbox', '10.10.20.51', '22', 'mncnow', 'Usage: V+ Inbox'],
 	['ptvgw-prod', '10.10.20.65', '22', 'mncnow', 'Usage: V+ PayTV Gateway'],
+	['url_shortener', '10.10.20.171', '22', 'mncnow', 'Usage: V+ URL Shortener'],
 	['---------- PLAYBOX ----------', '-----', '--', '----', '---------'],
 	['pboxweb', '10.10.21.160', '22', 'mncnow', 'Usage: Playbox website'],
 	['pbox-pgsql', '10.10.21.161', '22', 'mncnow', 'Usage: Playbox website postgres'],
