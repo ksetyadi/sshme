@@ -31,6 +31,8 @@ hostnames = [
 	['inbox', '10.10.20.51', '22', 'mncnow', 'Usage: V+ Inbox'],
 	['ptvgw-prod', '10.10.20.65', '22', 'mncnow', 'Usage: V+ PayTV Gateway'],
 	['url_shortener', '10.10.20.171', '22', 'mncnow', 'Usage: V+ URL Shortener'],
+	['vp-appconfig', '159.65.136.67', '22', 'root', 'Usage: V+ App Config'],
+	['vp-versioning', '159.65.136.81', '22', 'root', 'Usage: V+ Versioning'],
 	['---------- PLAYBOX ----------', '-----', '--', '----', '---------'],
 	['pboxweb', '10.10.21.160', '22', 'mncnow', 'Usage: Playbox website'],
 	['pbox-pgsql', '10.10.21.161', '22', 'mncnow', 'Usage: Playbox website postgres'],
