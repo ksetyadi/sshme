@@ -1,6 +1,5 @@
 hostnames = [
 	['---------- V+ Internals ----------', '-----', '--', '----', '---------'],
-	['re-do', '188.166.241.242', '22', 'root', 'Usage: V+ Recommendation Engine Service - DO'],
 	['re-engine', '10.10.20.50', '22', 'mncnow', 'Usage: V+ Recommendation Engine Service'],
 	['re-engine-db', '10.10.20.5', '22', 'mncnow', 'Usage: V+ Recommendation Engine Service DB'],
 	['re-engine-redis', '10.10.20.52', '22', 'mncnow', 'Usage: V+ Recommendation Engine Service: Redis'],
@@ -22,6 +21,8 @@ hostnames = [
 	['dl2go-prod', '10.10.20.39', '22', 'mncnow', 'Usage: Download To Go Production'],
 	['db-explore', '10.10.19.70', '22', 'mncnow', 'Usage: Vision+ Data Exploration'],
 	['app-rating', '10.10.20.171', '22', 'mncnow', 'Usage: Vision+ App Rating'],
+	['atvlogin1', '10.10.20.47', '22', 'mncnow', 'Usage: ATV Login Server 1'],
+	['atvlogin2', '10.10.20.48', '22', 'mncnow', 'Usage: ATV Login Server 2'],
 	['vp-metabase', '209.97.171.247', '22', 'mncnow', 'Usage: Vision+ Metabase'],
 	['vp-kafka', '209.97.173.154', '22', 'root', 'Usage: Vision+ Kafka'],
 	['web-prod-1', '10.10.19.161', '45817', 'mncnow', 'Usage: V+ Website Production 1'],
