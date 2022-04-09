@@ -32,6 +32,9 @@ hostnames = [
 	['vp-versioning', '159.65.136.81', '22', 'root', 'Usage: V+ Versioning'],
 	['vp-adtools', '10.10.20.21', '22', 'mncnow', 'Usage: V+ AdTools'],
 	['database1-prod', '10.10.20.59', '45817', 'mncnow', 'Usage: V+ Database Production 1'],
+	['lastwatch-api1', '10.10.20.67', '22', 'mncnow', 'Usage: V+ Last Watch API 1'],
+	['lastwatch-api2', '10.10.20.68', '22', 'mncnow', 'Usage: V+ Last Watch API 2'],
+	['lastwatch-redis', '10.10.20.66', '22', 'mncnow', 'Usage: V+ Database Production Redis Continue Watching'],	
 	['mongodb-cont', '10.10.20.220', '22', 'mncnow', 'Usage: V+ Database Production MongoDB Continue Watching'],	
 	['---------- V+ PROXYSQL ----------', '-----', '--', '----', '---------'],
 	['proxysql', '10.10.20.179', '45817', 'mncnow', 'Usage: V+ ProxySQL'],
@@ -77,6 +80,10 @@ hostnames = [
 	['7spc-galaxy-dev', '34.101.177.187', '22', 'root', 'Usage: Galaxy Dev'],
 	['7spc-staging', '128.199.221.110', '22', 'root', 'Usage: 7 Spectrum Staging'],
 	['7spc-prod', '206.189.95.24', '22', 'root', 'Usage: 7 Spectrum Production'],
+	['---------- Vision+ Payment ------------------------', '', '', '', ''],
+	['vp-payment1', '10.10.20.91', '22', 'mncnow', 'Payment 1'],
+	['vp-payment2', '10.10.20.92', '22', 'mncnow', 'Payment 1'], 
+	['vp-indihome-stag', '10.10.19.225', '22', 'mncnow', 'Indihome staging'],
 ]
 
 private_keys = ['/Users/ksetyadi/.ssh/id_rsa', '/Users/ksetyadi/.ssh/id_rsa_mbp_2011']
