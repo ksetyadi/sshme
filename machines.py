@@ -9,7 +9,6 @@ hostnames = [
 	['content-tools-cms-stag', '10.10.19.102', '22', 'root', 'Usage: Content Tools CMS Staging'],
 	['media-center', '10.10.19.172', '22', 'mncnow', 'Usage: Media Center Vision+'],
 	['sms-node1', '10.10.19.131', '22', 'mncnow', 'Usage: SMS Service'],
-	['sms-node2', '68.183.183.227', '45817', 'root', 'Usage: SMS Service Backup'],
 	['special-tunnel', '110.50.83.173', '45817', 'kristiono', 'Usage: Special Tunnel to Office'],
 	['all-stags', '10.10.19.224', '22', 'mncnow', 'Usage: Voucher HUT + Ref ID Generator + Vmail + SMS'],
 	['voucher-hut-prod', '10.10.19.135', '45817', 'mncnow', 'Usage: Voucher HUT Production'],
