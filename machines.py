@@ -22,6 +22,7 @@ hostnames = [
 	['dl2go-prod', '10.10.20.39', '22', 'mncnow', 'Usage: Download To Go Production'],
 	['db-explore', '10.10.19.70', '22', 'mncnow', 'Usage: Vision+ Data Exploration'],
 	['app-rating', '10.10.20.171', '22', 'mncnow', 'Usage: Vision+ App Rating'],
+	['atvlogin-db', '10.10.20.46', '22', 'mncnow', 'Usage: ATV Login Database'],
 	['atvlogin1', '10.10.20.47', '22', 'mncnow', 'Usage: ATV Login Server 1'],
 	['atvlogin2', '10.10.20.48', '22', 'mncnow', 'Usage: ATV Login Server 2'],
 	['vp-metabase', '209.97.171.247', '22', 'mncnow', 'Usage: Vision+ Metabase'],
@@ -84,6 +85,8 @@ hostnames = [
 	['vp-payment1', '10.10.20.91', '22', 'mncnow', 'Payment 1'],
 	['vp-payment2', '10.10.20.92', '22', 'mncnow', 'Payment 1'], 
 	['vp-indihome-stag', '10.10.19.225', '22', 'mncnow', 'Indihome staging'],
+	['vp-indihome-prod', '10.10.21.11', '22', 'mncnow', 'Indihome Production'],
+	['vp-indihome-redis', '10.10.21.12', '22', 'mncnow', 'Indihome Production Redis']
 ]
 
 private_keys = ['/Users/ksetyadi/.ssh/id_rsa', '/Users/ksetyadi/.ssh/id_rsa_mbp_2011']
