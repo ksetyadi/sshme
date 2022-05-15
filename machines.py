@@ -21,9 +21,14 @@ hostnames = [
 	['dl2go-prod', '10.10.20.39', '22', 'mncnow', 'Usage: Download To Go Production'],
 	['db-explore', '10.10.19.70', '22', 'mncnow', 'Usage: Vision+ Data Exploration'],
 	['app-rating', '10.10.20.171', '22', 'mncnow', 'Usage: Vision+ App Rating'],
-	['atvlogin-db', '10.10.20.46', '22', 'mncnow', 'Usage: ATV Login Database'],
+	['atvlogin-lb1', '10.10.20.151', '45817', 'mncnow', 'Usage: ATV Login Load Balancer'],
+	['atvlogin-lb2', '10.10.20.152', '45817', 'mncnow', 'Usage: ATV Login Load Balancer'],
 	['atvlogin1', '10.10.20.47', '22', 'mncnow', 'Usage: ATV Login Server 1'],
 	['atvlogin2', '10.10.20.48', '22', 'mncnow', 'Usage: ATV Login Server 2'],
+	['atvlogin3', '10.10.21.48', '22', 'mncnow', 'Usage: ATV Login Server 3'],
+	['atvlogin4', '10.10.21.49', '22', 'mncnow', 'Usage: ATV Login Server 4'],
+	['atvlogin-redis', '10.10.21.46', '22', 'mncnow', 'Usage: ATV Login Redis'],
+	['atvlogin-db', '10.10.20.46', '22', 'mncnow', 'Usage: ATV Login Database'],
 	['vp-metabase', '209.97.171.247', '22', 'mncnow', 'Usage: Vision+ Metabase'],
 	['inbox', '10.10.20.51', '22', 'mncnow', 'Usage: V+ Inbox'],
 	['ptvgw-prod', '10.10.20.65', '22', 'mncnow', 'Usage: V+ PayTV Gateway'],
@@ -54,6 +59,11 @@ hostnames = [
 	['app-api-5', '10.10.20.205', '22', 'mncnow', 'Usage: V+ APP'],
 	['app-api-6', '10.10.20.206', '22', 'mncnow', 'Usage: V+ APP'],
 	['app-api-7', '10.10.20.207', '22', 'mncnow', 'Usage: V+ APP'],
+	['---------- V+ LB CONTENT ----------', '-----', '--', '----', '---------'],
+	['lb-content-1', '10.10.20.120', '45817', 'mncnow', 'Usage: V+ CONTENT LB'],
+	['lb-content-2', '10.10.20.121', '45817', 'mncnow', 'Usage: V+ CONTENT LB'],
+	['lb-content-3', '10.10.20.122', '45817', 'mncnow', 'Usage: V+ CONTENT LB'], 
+	['lb-content-4', '10.10.20.123', '45817', 'mncnow', 'Usage: V+ CONTENT LB'], 
 	['---------- V+ PRODUCTION WEB API ----------', '-----', '--', '----', '---------'],
 	['web-api-1', '10.10.20.211', '22', 'mncnow', 'Usage: V+ Web API'],
 	['web-api-2', '10.10.20.212', '22', 'mncnow', 'Usage: V+ Web API'],
@@ -85,7 +95,14 @@ hostnames = [
 	['vp-payment2', '10.10.20.92', '22', 'mncnow', 'Payment 1'], 
 	['vp-indihome-stag', '10.10.19.225', '22', 'mncnow', 'Indihome staging'],
 	['vp-indihome-prod', '10.10.21.11', '22', 'mncnow', 'Indihome Production'],
-	['vp-indihome-redis', '10.10.21.12', '22', 'mncnow', 'Indihome Production Redis']
+	['vp-indihome-redis', '10.10.21.12', '22', 'mncnow', 'Indihome Production Redis'],
+	['---------- Vision+ Payment ------------------------', '', '', '', ''],
+	['entitlement-1', '10.10.20.95', '22', 'mncnow', 'Entitlement 1'],
+	['entitlement-2', '10.10.20.96', '22', 'mncnow', 'Entitlement 2'],
+	['entitlement-3', '10.10.21.95', '22', 'mncnow', 'Entitlement 3'],
+	['entitlement-4', '10.10.21.96', '22', 'mncnow', 'Entitlement 4'],
+ 	['---------- R+ /r hit ------------------------', '', '', '', ''], 
+	['slash-r', '10.10.21.100', '22', 'mncnow', 'R+ /r hit'] 
 ]
 
 private_keys = ['/Users/ksetyadi/.ssh/id_rsa', '/Users/ksetyadi/.ssh/id_rsa_mbp_2011']
