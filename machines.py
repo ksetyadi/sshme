@@ -1,8 +1,7 @@
 hostnames = [
 	['---------- PERSONAL ----------', '-----', '--', '----', '---------'],
-	['meowmagz', '206.189.208.77', '22', 'root', 'Usage: Meowmagz Server'],
 	['orion-sgp1', '167.99.67.233', '22', 'root', 'Usage: Orion Server'],
-	['---------- Streamwave ------------------------', '', '', '', ''],
+	['---------- Streamwave && Jurnalab ------------------------', '', '', '', ''],
 	['streamwave-sgp1', '159.223.84.192', '22', 'root', 'Usage: Streamwave Web'],
 	['---------- KolegaHR ------------------------', '', '', '', ''],
 	['kolegahr-staging', '152.42.227.21', '22', 'root', 'Usage: KolegaHR Staging'],
