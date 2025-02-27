@@ -10,7 +10,7 @@ hostnames = [
 	['bawaslu-dev', '159.65.1.3', '22', 'root', 'Usage: Bawaslu Absensi (Development - DigitalOcean)'],
 	['bawaslu-prod', '192.168.50.1', '22', 'absen', 'Usage: Bawaslu Absensi (Production - Bawaslu Server)'],
 	['---------- BUMN Today ------------------------', '', '', '', ''],
-	['bumntoday-dev', '152.42.188.204', '22', 'absen', 'Usage: BUMN Today (Development)'], 
+	['bumntoday-dev', '152.42.188.204', '22', 'root', 'Usage: BUMN Today (Development)'], 
 ]
 
 private_keys = ['/Users/ksetyadi/.ssh/id_rsa', '/Users/ksetyadi/.ssh/id_rsa_mbp_2011']
